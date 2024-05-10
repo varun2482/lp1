@@ -1,0 +1,19 @@
+namespace dlldemo
+{
+ //this class is exported from the mathLibrary.dll
+
+ class Functions
+ {
+ public:
+  //Returns a+b
+  static MATHLIBRARY_API double Add(double a,double b);
+  //Returns a-b
+  static MATHLIBRARY_API double sub(double a,double b);
+  //Returns a/b
+  static MATHLIBRARY_API double div(double a,double b);
+  //Returns a*b
+  static MATHLIBRARY_API double Multiply(double a,double b);
+  //Returns a+(a*b)
+  static MATHLIBRARY_API double AddMultiply(double a,double b);
+ };
+};

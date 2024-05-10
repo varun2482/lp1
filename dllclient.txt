@@ -1,0 +1,24 @@
+#include"windows.h"
+#include<iostream>
+#include"dlldemo.h"
+using namespace std;
+int main()
+{
+ double a;
+ int b;
+ cout<<"Enter value of a";
+ cin>>a;
+ cout<<"Enter value of b";
+ cin>>b;
+ cout<<"a+b="<<
+   dlldemo::Functions::Add(a,b)<<endl;
+ cout<<"a-b="<<
+   dlldemo::Functions::sub(a,b)<<endl;
+ cout<<"a/b="<<
+   dlldemo::Functions::div(a,b)<<endl;
+ cout<<"a*b="<<
+   dlldemo::Functions::Multiply(a,b)<<endl;
+ cout<<"a+(a*b)"<<
+   dlldemo::Functions::AddMultiply(a,b)<<endl;
+ return 0;
+}

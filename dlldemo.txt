@@ -1,0 +1,25 @@
+#include"windows.h"
+#include"dlldemo.h"
+namespace dlldemo
+{
+ double Functions::Add(double a,double b)
+ {
+  return a+b;
+ }
+ double Functions::sub(double a,double b)
+ {
+  return a-b;
+ }
+ double Functions::div(double a,double b)
+ {
+  return a/b;
+ }
+ double Functions::Multiply(double a,double b)
+ {
+  return a*b;
+ }
+ double Functions::AddMultiply(double a,double b)
+ {
+  return a+(a*b);
+ }
+};
